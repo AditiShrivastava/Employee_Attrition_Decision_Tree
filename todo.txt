@@ -1,0 +1,10 @@
+PART-2
+1.We have to deal with both numerical and categorical attribute.So i will be categorising the attributes into two types.
+2.For catergorical , use the previous function of PART 1.
+3.For numerical,make a function that will divide each unique value of each attribute into different ranges(LHS <=num && RHS >num)
+4.for LHS,calculate entropy and for RHS as well.Calculate the weighted average of both.
+5.Repeat 4 for all the unique values of the attribute and find the maximum gain among them.
+6.Find maximum among all the numeraical attributes and return it as the maximum among numerical attributes
+7.Find maximum among all the categorical attributes
+8.Find the maximum among both and return it as the root node.
+9.Eliminate that attribute from the dataframe and repeat till 8 for the rest.
